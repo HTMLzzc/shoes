@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-item {
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 200px; /* حجم ثابت للمنتجات */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
